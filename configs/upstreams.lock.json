@@ -1,0 +1,69 @@
+{
+  "repository": "https://github.com/xdmiemie/TimbreForge.git",
+  "rift": {
+    "repository": "https://github.com/Pur1zumu/RIFT-SVC.git",
+    "commit": "c03fa5940fb8edc32bd43be41eb2655fd8a93deb",
+    "archive_sha256": "e9560b92457aa309e5ad58aca22a5a0676ba78794940ced9b7b0322dcb97d447",
+    "license": "CC-BY-NC-SA-4.0",
+    "archive_url": "https://codeload.github.com/Pur1zumu/RIFT-SVC/zip/c03fa5940fb8edc32bd43be41eb2655fd8a93deb",
+    "validation_checkpoint": {
+      "sha256": "4bbc609aa0204702e55b102d316d4696dfb8cb665cd902c027260f21eaf1e78e",
+      "revision": "7a7effa",
+      "source": "https://huggingface.co/Pur1zumu/RIFT-SVC-finetuned/blob/7a7effa/dit-512-8_nanami.ckpt",
+      "filename": "dit-512-8_nanami.ckpt"
+    }
+  },
+  "astrbot": {
+    "branch": "astrbot-chat",
+    "commit": "1c1cce46e0d14efaf1ea415c226ff8c8326d2a2c",
+    "observed_source_sha256": {
+      "song_source.py": "9298c4515269f4a4b59ccd8564606fdb543bc174ec8acae5a015afb55845581",
+      "netease_auth.py": "a4f2a046d791aa8266dee5226ff3bc73e4f623281bc4fe2de6e27ec037fcb2d9"
+    }
+  },
+  "assets": {
+    "base": {
+      "path": "pretrain-v3_dit-1024-16.ckpt",
+      "sha256": "c09778a8c0a455ad3357cb2e0b94f9db82caf101627684acfa6f568fb766e8f9",
+      "url": "https://huggingface.co/Pur1zumu/RIFT-SVC-pretrained/resolve/3d36746/pretrain-v3_dit-1024-16.ckpt"
+    },
+    "separation": {
+      "path": "model_bs_roformer_ep_317_sdr_12.9755.ckpt",
+      "sha256": "5b84f37e8d444c8cb30c79d77f613a41c05868ff9c9ac6c7049c00aefae115aa",
+      "version": "0.47.0",
+      "config": "model_bs_roformer_ep_317_sdr_12.9755.yaml",
+      "config_sha256": "2bfdd16c656bd9519aba757cc4f8834b7ede675eb1e00ec4772d74ae1c41af7f",
+      "source": "https://github.com/nomadkaraoke/python-audio-separator/releases/download/model-configs/"
+    }
+  },
+  "rift_modules": {
+    "files": {
+      "rmvpe/model.pt": {
+        "sha256": "19dc1809cf4cdb0a18db93441816bc327e14e5644b72eeaae5220560c6736fe2",
+        "bytes": 368492925
+      },
+      "content-vec-best/config.json": {
+        "sha256": "2ddde063b795d38d9051a7215a092fecf4cfe148b54251e38de51d88d356898b",
+        "bytes": 1388
+      },
+      "nsf_hifigan_44.1k_hop512_128bin_2024.02/model.ckpt": {
+        "sha256": "6512580252c2675b46d7d81845d33223c2450cc5d6590afd83f6e21319d47fe8",
+        "bytes": 56816642
+      },
+      "nsf_hifigan_44.1k_hop512_128bin_2024.02/NOTICE.txt": {
+        "sha256": "31005a94c1e591d3a09dd0702bc21082b2aaa2f36d3689fe248a651cdd83ebf6",
+        "bytes": 3725
+      },
+      "nsf_hifigan_44.1k_hop512_128bin_2024.02/config.json": {
+        "sha256": "3500d9a23b81d69b1204bcd699aea501c528c7d232e905afbbc39a3db6089220",
+        "bytes": 569
+      },
+      "content-vec-best/pytorch_model.bin": {
+        "sha256": "d8dd400e054ddf4e6be75dab5a2549db748cc99e756a097c496c099f65a4854e",
+        "bytes": 378342945
+      }
+    },
+    "revision": "03c1662",
+    "repository": "Pur1zumu/RIFT-SVC-modules"
+  }
+}

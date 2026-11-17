@@ -1,0 +1,16 @@
+/.venv*/
+/data/
+/vendor/
+/frontend/node_modules/
+/frontend/dist/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+*.dpapi
+*.sqlite*
+.env*
+!/configs/*.example.json

@@ -1,0 +1,35 @@
+:root { font-family: "Instrument Sans", "Microsoft YaHei", sans-serif; color: #e7eeed; background: #11191c; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1080px; padding: 44px 24px; margin: auto; }
+header, nav { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+header { justify-content: space-between; padding-bottom: 20px; }
+h1 { margin: 0; font-size: clamp(2rem, 5vw, 3rem); letter-spacing: .05em; }
+h2 { font-size: 1.18rem; margin-top: 0; }
+p { color: #b3c4c3; line-height: 1.55; }
+header p { margin: 6px 0 0; }
+.status { color: #97e5ce; }
+nav { border-bottom: 1px solid #334346; margin-bottom: 24px; padding-bottom: 12px; }
+button, select, input { color: inherit; background: #19272a; border: 1px solid #486365; border-radius: 7px; padding: 9px 13px; font: inherit; }
+button { cursor: pointer; }
+button:hover, button[aria-current] { border-color: #8ae8cb; background: #235348; }
+button:disabled { opacity: .55; cursor: wait; }
+section { background: #172226; border: 1px solid #334346; border-radius: 12px; padding: 20px; margin-bottom: 14px; }
+label { display: grid; gap: 7px; margin: 14px 0; }
+pre { overflow: auto; max-height: 310px; white-space: pre-wrap; overflow-wrap: anywhere; color: #aee2d4; }
+[role="alert"] { color: #ffb5a0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(235px, 100%), 1fr)); gap: 0 16px; }
+.actions { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 10px 0; }
+.check, .song { display: flex; gap: 12px; align-items: center; }
+.song { padding: 12px 0; margin: 0; border-bottom: 1px solid #334346; }
+.song small { display: block; margin-top: 5px; color: #a7bab8; }
+summary { cursor: pointer; margin: 14px 0; }
+audio { display: block; width: min(100%, 560px); }
+a { color: #8ae8cb; }
+.file-list ul { display: grid; gap: 5px; list-style: none; padding: 0; max-height: 240px; overflow: auto; }
+.player input[type="range"] { flex: 1; min-width: 120px; padding: 0; accent-color: #8ae8cb; }
+.player span { font-variant-numeric: tabular-nums; }
+.manage-row { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 16px; margin: 10px 0; }
+.manage-row .check { margin: 0; }
+.danger { color: #ffb5a0; }
+.saved-row { border-top: 1px solid #334346; padding: 8px 0 12px; }

@@ -1,0 +1,9 @@
+{
+  "data_environment": "TIMBREFORGE_DATA",
+  "astrbot_environment": "TIMBREFORGE_ASTRBOT",
+  "rift_python_environment": "TIMBREFORGE_RIFT_PYTHON",
+  "separator_python_environment": "TIMBREFORGE_SEPARATOR_PYTHON",
+  "music_python_environment": "TIMBREFORGE_MUSIC_PYTHON",
+  "training": {"architecture": "dit-1024-16", "train_batch_size": 16, "lora_training": false},
+  "inference": {"inference_steps": 64}
+}
